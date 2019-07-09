@@ -1,6 +1,7 @@
 body  {
-  background-image: url('../assets/images/background.jpg');
-  background-repeat: repeat;
+  background-image: url('../assets/images/fish-bowl.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: block;
   font-family: Arial;
   margin: 0;
@@ -18,9 +19,7 @@ h1  {
 }
 
 #mainview  {
-  background-color: #2b5799;
-  border-radius: 50%;
-  box-shadow: 0 0 8px 1px #fe6cc7;
+  background-color: none;
   display: block;
   height: 98vh;
   margin: 1vh auto;
