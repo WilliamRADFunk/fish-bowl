@@ -1,0 +1,40 @@
+body  {
+  background-image: url('../assets/images/background.jpg');
+  background-repeat: repeat;
+  display: block;
+  font-family: Arial;
+  margin: 0;
+}
+
+h1  {
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 3px;
+  color: rgb(232, 248, 8);
+  display: block;
+  font-size: 48px;
+  height: 50px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#mainview  {
+  background-color: #2b5799;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 1px #fe6cc7;
+  display: block;
+  height: 98vh;
+  margin: 1vh auto;
+  width: 90vw;
+}
+
+@media (max-width: 1000px)  {
+  body  {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px)  {
+  body  {
+    font-size: 8px;
+  }
+}
