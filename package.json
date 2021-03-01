@@ -79,6 +79,6 @@
   "dependencies": {
     "randomcolor": "^0.5.3",
     "spriteling": "^1.1.4",
-    "three": "^0.96.0"
+    "three": "^0.125.0"
   }
 }
